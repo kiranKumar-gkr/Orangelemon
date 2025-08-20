@@ -11,7 +11,7 @@ describe("login suite",()=>{
         cy.get('input[name="username"]',{timeout:10000}).type("Admin");
         cy.get(':nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input').type("admin123");
         cy.get('.oxd-button').click();
-//kkiran
+
   // Step 3: Navigate to My Info
       cy.get(':nth-child(6) > .oxd-main-menu-item > .oxd-text').click();
        cy.wait(5000);
